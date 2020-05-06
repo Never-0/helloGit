@@ -1,0 +1,12 @@
+
+test:
+  name: zhangsan
+  age: 15
+  list:
+    - ${random.int}
+    - a
+    - b
+    - ${random.uuid}
+    - ${test.aaa:bbb}
+  hello: {name1: bob,age1: 22}
+
